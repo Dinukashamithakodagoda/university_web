@@ -2,6 +2,20 @@
 
 A simple PHP and MySQL student management system for handling admin access, student records, search, and exports.
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Dinukashamithakodagoda/university_web)
+![GitHub last commit](https://img.shields.io/github/last-commit/Dinukashamithakodagoda/university_web)
+![PHP](https://img.shields.io/badge/PHP-7.4%2B-777bb4)
+
+## Screenshots
+
+If you want to showcase the interface on GitHub, add images to the repository and link them here.
+
+```text
+assets/screenshots/login.png
+assets/screenshots/dashboard.png
+assets/screenshots/students.png
+```
+
 ## Overview
 
 This project is designed to run locally with WAMP, XAMPP, or any similar PHP/MySQL stack. It includes a basic admin login, student registration, dashboard views, search, and an export utility.
@@ -85,3 +99,7 @@ Then update the admin record in MySQL with the generated hash.
 - Make sure `uploads/student-photos/` is writable by the web server.
 - The included `database.sql` is intended for a clean install.
 - If you are migrating old data, export your existing database first before importing the new schema.
+
+## License
+
+No license file is included yet. Add one if you want to define how others can use or share this project.
